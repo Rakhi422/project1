@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-color:#4b73c9;
+  color:white;
+  padding: 60px 20px;
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+  background-color:#b8bec5;
+}
+
+.box1 {
+  max-width: 700px;
+  text-align: center;
+  padding: 30px;
+  border: 1px white;
+  border-radius: 5px;
+  background:#4b73c9;
+  box-shadow: 0 4px 15px white;
+}
+
+.box1 h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.box1 p {
+  font-size: 16px;
+  color:white;
+  margin-bottom: 25px;
+}
+
+  .btn {
+    text-decoration: none;
+    background:white;
+    color:#4b73c9; ;
+    padding: 12px 24px;
+    font-weight: bold;
+  }
+  .features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+  background-color:#b8bec5;
+}
+.card {
+  background-color:#4b73c9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  color:white ;
+  box-shadow: 0 2px 5px white;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px white;
+}
+.placed-students {
+  background-color: #f9f9f9;
+  padding: 21px;
+  text-align: center;
+}
+
+.placed-students h3 {
+  font-size: 20px;
+  color: #4b73c9;
+  margin-bottom: 15px;
+  background: #b8bec5;
+}
+
+.student-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  background: #b8bec5;
+}
+
+.student-card {
+  background-color:#4b73c9;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 240px;
+  box-shadow: 0 1px 4px white;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+  background-color:#4b73c9;
+  box-shadow: 0 4px 10px white;
+}
+.student-card h4 {
+  margin-bottom: 4px;
+  color:white;
+  font-size: 1.1rem;
+}
+.pricing {
+  background-color:#b8bec5;
+  text-align: center; 
+  padding: 40px 20px;
+  color:#4b73c9;
+}
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  color:white;
+  margin-top: 20px;
+}
+
+.price-card {
+  background:#4b73c9;
+  border: 1px white;
+  border-radius: 2px;
+  padding: 20px;
+  width: 200px;
+  gap:50px;
+  transition: box-shadow 0.2s, transform 0.3s;
+  box-shadow: 0 2px 5px rgba(251, 246, 246, 0.925);
+}
+
+.price-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px white;
+}
+
+footer {
+  background-color:#4b73c9;
+  color:white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+}
+
+  
+  
